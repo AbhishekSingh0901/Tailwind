@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Interactivity</title>
+  </head>
+  <body>
+    <!-- Hover State Styling -->
+
+    <button
+      class="bg-black text-white px-5 py-3 rounded-lg m-10 hover:bg-gray-700"
+    >
+      Submit
+    </button>
+    <!-- Focus State Styling -->
+    <button
+      class="bg-black text-white px-5 py-3 rounded-lg m-10 focus:bg-gray-700"
+    >
+      Submit
+    </button>
+    <!-- Active State Styling -->
+    <button
+      class="bg-black text-white px-5 py-3 rounded-lg m-10 active:bg-gray-700"
+    >
+      Submit
+    </button>
+
+    <!-- Styling based on parent state -->
+    <a
+      href=""
+      class="group block max-w-xs mx-auto rounded-lg p-6 bg-rose-100 shadow-lg space-y-3 hover:bg-gradient-to-r from-rose-400 to-rose-200 hover:shadow-xl"
+    >
+      <h1
+        class="font-bold text-2xl decoration-1 text-center group-hover:text-rose-800"
+      >
+        Card Title
+      </h1>
+      <p class="text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dolore.
+      </p>
+    </a>
+
+    <!-- Pseudo Classes -->
+    <ul class="w-48 mt-24 ml-10">
+      <li class="first:bg-red-200 even:bg-red-300 odd:bg-red-400">Item 1</li>
+      <li class="first:bg-red-200 even:bg-red-300 odd:bg-red-400">Item 2</li>
+      <li class="first:bg-red-200 even:bg-red-300 odd:bg-red-400">Item 3</li>
+      <li class="first:bg-red-200 even:bg-red-300 odd:bg-red-400">Item 4</li>
+      <li class="first:bg-red-200 even:bg-red-300 odd:bg-red-400">Item 5</li>
+      <li class="first:bg-red-200 even:bg-red-300 odd:bg-red-400">Item 6</li>
+    </ul>
+
+    <!-- Appearance -->
+    <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <!-- <select class="m-10 appearance-none">
+      <option value="yes">Yes</option>
+      <option value="No">No</option>
+    </select> -->
+
+    <!-- Cursor -->
+
+    <button
+      type="button"
+      class="bg-black text-white py-3 px-5 rounded-lg m-10 cursor-pointer"
+    >
+      Submit
+    </button>
+    <button
+      type="button"
+      class="bg-black text-yellow-500 py-3 px-5 rounded-lg m-10 cursor-progress"
+    >
+      Loading...
+    </button>
+    <button
+      type="button"
+      disabled
+      class="bg-black text-red-200 py-3 px-5 rounded-lg m-10 cursor-not-allowed"
+    >
+      Confirm
+    </button>
+
+    <br />
+
+    <!-- Resize -->
+    <textarea class="border border-black rounded resize"></textarea>
+
+    <!-- User Select -->
+    <div class="select-none">Lorem ipsum dolor sit amet.</div>
+    <div class="select-text">Lorem ipsum dolor sit amet.</div>
+    <div class="select-all">Lorem ipsum dolor sit amet.</div>
+    <div class="select-auto">Lorem ipsum dolor sit amet.</div>
+
+    <a href="#item" class="block my-6">Go to item</a>
+
+    <!-- Smooth Scroll Example -->
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis
+      quidem eaque enim, modi suscipit minima rem iste sunt corrupti
+      exercitationem cum nisi delectus quas necessitatibus voluptatibus
+      excepturi consectetur porro ea veritatis eum iusto nesciunt adipisci!
+      Veniam ab similique officia deleniti ipsam facere distinctio, explicabo
+      laborum error? Qui minima beatae adipisci? Iste totam quam doloribus
+      molestiae ut omnis voluptate ratione voluptatibus, quas libero, illum,
+      quidem voluptas qui beatae! Facilis recusandae aut modi deserunt, suscipit
+      hic aliquid quod dolorum tempora quas eius magni officia corrupti vero id
+      ab cupiditate? Molestias, blanditiis possimus. Quod ea maxime deleniti
+      deserunt ipsam animi, nesciunt blanditiis ipsum tempora facere error eos
+      tenetur reiciendis ullam, autem nihil maiores veritatis. Fugiat harum
+      eligendi nostrum vel laudantium consequuntur maxime ipsam in iure animi
+      consectetur, eius magnam reiciendis officia similique repellendus tenetur
+      deleniti a minus! Laborum repudiandae neque, velit ipsum corrupti quos
+      asperiores dolores nam dicta consequuntur libero animi cupiditate quasi
+      maiores suscipit cum beatae possimus dolor accusamus reiciendis quibusdam
+      porro. Aperiam adipisci ex fugit autem quia reiciendis sed laudantium
+      nostrum iusto, temporibus magni asperiores, dolores id minus doloribus
+      aliquam. Pariatur asperiores repellendus, veniam totam eveniet illum,
+      eaque accusantium cupiditate omnis vel sint recusandae sed. Necessitatibus
+      illum vel est voluptatem, repellendus ratione quam omnis, at delectus quis
+      molestiae perferendis deserunt? At earum, possimus error repudiandae
+      fugiat omnis, nemo cum accusantium minus voluptatum beatae libero
+      accusamus. Id libero possimus quisquam atque consectetur explicabo nostrum
+      dolorum sit minima, quae quod quam pariatur saepe sunt deserunt.
+      Laboriosam omnis tempore corporis, accusamus vel perspiciatis id quo
+      facilis voluptas, dolor exercitationem natus non quod molestias recusandae
+      repellendus nemo consequatur officiis nobis distinctio, necessitatibus
+      quae sed suscipit ab. Quod pariatur maiores voluptatibus magni maxime
+      quasi architecto hic, eius laudantium modi doloribus tempore dignissimos
+      quo corrupti nam repellat voluptate delectus, eos vitae iste mollitia
+      perspiciatis quibusdam beatae sunt! Dolores consequuntur unde earum omnis
+      reprehenderit corporis expedita voluptatum non odio id laboriosam incidunt
+      itaque consectetur, temporibus cupiditate enim dolorum ab officia.
+      Necessitatibus dolor at eaque corporis, repellat hic odit vero ad
+      consequatur quam sint delectus doloremque, ab possimus debitis ex
+      voluptatibus eum suscipit fuga explicabo ut! Dignissimos, magni maiores
+      ipsum recusandae tenetur itaque, dolores ullam soluta animi optio
+      veritatis doloribus incidunt? Vitae, omnis error! Similique repellat non,
+      esse voluptatibus provident nihil a iure placeat suscipit ad fuga earum
+      commodi mollitia recusandae perferendis sequi est aperiam molestias dolor.
+      Blanditiis nisi natus expedita iste dolorum molestias voluptatum, aliquam
+      earum optio sapiente?
+    </p>
+    <div id="item">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod labore sed,
+      voluptas quasi assumenda omnis itaque ullam! Totam, porro maxime. Labore
+      iste quidem, doloribus error natus perspiciatis minus delectus esse
+      explicabo fugit, nobis tempore earum nulla? Perspiciatis suscipit nihil,
+      modi, doloribus omnis fugit fugiat praesentium quidem dicta quo dolorum
+      quos.
+    </div>
+  </body>
+</html>
+
+<!-- Cursor
+  cursor-auto	          cursor: auto;
+  cursor-default	      cursor: default;
+  cursor-pointer	      cursor: pointer;
+  cursor-wait	          cursor: wait;
+  cursor-text	          cursor: text;
+  cursor-move	          cursor: move;
+  cursor-help	          cursor: help;
+  cursor-not-allowed	  cursor: not-allowed;
+  cursor-none	          cursor: none;
+  cursor-context-menu	  cursor: context-menu;
+  cursor-progress	      cursor: progress;
+  cursor-cell	          cursor: cell;
+  cursor-crosshair	    cursor: crosshair;
+  cursor-vertical-text	cursor: vertical-text;
+  cursor-alias	        cursor: alias;
+  cursor-copy	          cursor: copy;
+  cursor-no-drop	      cursor: no-drop;
+  cursor-grab	          cursor: grab;
+  cursor-grabbing	      cursor: grabbing;
+  cursor-all-scroll	    cursor: all-scroll;
+  cursor-col-resize	    cursor: col-resize;
+  cursor-row-resize	    cursor: row-resize;
+  cursor-n-resize	      cursor: n-resize;
+  cursor-e-resize	      cursor: e-resize;
+  cursor-s-resize	      cursor: s-resize;
+  cursor-w-resize	      cursor: w-resize;
+  cursor-ne-resize	    cursor: ne-resize;
+  cursor-nw-resize	    cursor: nw-resize;
+  cursor-se-resize	    cursor: se-resize;
+  cursor-sw-resize	    cursor: sw-resize;
+  cursor-ew-resize	    cursor: ew-resize;
+  cursor-ns-resize	    cursor: ns-resize;
+  cursor-nesw-resize	  cursor: nesw-resize;
+  cursor-nwse-resize	  cursor: nwse-resize;
+  cursor-zoom-in	      cursor: zoom-in;
+  cursor-zoom-out	      cursor: zoom-out;
+-->
